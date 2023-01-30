@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* font-family: 'Cairo', sans-serif; <---- FOR ARABIC */
+/* font-family: 'Roboto', sans-serif; <---- FOR englishh */
+body{
+    background: url(background.jpg);
+    display: flex;
+    
+    position: fixed;
+    left: 475px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: smaller;
+    
+}
+.form{
+    
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    transform: 0.3s ease;
+    width: auto;
+    height: auto;
+    
+    
+}
+.form h2:hover{
+    filter: drop-shadow(0px 0px 5px white);
+    transition: 0.3s;
+}
+.form input{
+    text-align: center;
+    background: green;
+    border-bottom: 1px black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    filter: drop-shadow(0px 0px 5px black);
+    transform: 0.3s;
+}
+.form input::placeholder{
+    color: white;
+    opacity: 50%;
+}
+.form input:hover{
+    filter: drop-shadow(0px 0px 10px black);
+    opacity: 50%;
+    transition: 0.3s;
+
+}
+.form input:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px black;
+}
+
+.form button{
+    filter: drop-shadow(0px 0px 5px white);
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    transform: 0.3s ease; 
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+.form button:hover{
+    filter: drop-shadow(0px 0px 5px rgb(89, 231, 93));
+    transition: 0.3s;
+    
+}
+.form button a{
+    color: black;
+    
+}
+header{
+    position: absolute;
+    left: -400px;
+    top: 30px;
+}
+header img{
+    filter: drop-shadow(0 0 5px white);
+    filter: blur(5px);
+    transform: 1s;
+
+}
+header img:hover{
+    filter: blur(0px);
+    filter: drop-shadow(0 0 10px white);
+    transition: 1s;
+}
+.arabic{
+    position: relative;
+    top: 80px;
+}
+.arabic a{
+    color: white;
+    text-decoration: none;
+}
+.arabic a:hover{
+    text-decoration: underline;
+}
+/*-----------------------*/
+
